@@ -1,0 +1,24 @@
+.nav {
+  display: block;
+  position: fixed;
+  width: 100%;
+  background-color: #fcfcfc;
+  padding: 20px 50px; /*위아래 20px, 왼쪽오른쪽 50px씩 여백 */
+  left: 0px;
+  bottom: 0px;
+  border-top: 1px solid black;
+}
+
+.nav .nav__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav__list-item > a {
+  text-decoration: none;
+  color: grey;
+}
+
+.nav i {
+  font-size: 30px;
+}

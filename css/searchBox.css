@@ -1,0 +1,21 @@
+.searchInput {
+  width: 90%;
+  border-radius: 5%;
+}
+
+.searchBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  width: 90%;
+  border: solid 1px black;
+  border-radius: 2%;
+  margin-bottom: 15px;
+}
+
+input {
+  display: flex;
+  align-items: center;
+  font-family: "Noto Sans KR", sans-serif;
+}

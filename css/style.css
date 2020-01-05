@@ -1,0 +1,30 @@
+/*구글폰트 Noto Sans KR 적용 링크-*/
+@import url("https://fonts.googleapis.com/css?family=Jua|Noto+Sans+KR:500&display=swap&subset=korean");
+
+/*기본 적용 css 해제 링크-*/
+@import "reset.css";
+
+/*화면 최상단 상태창 css 적용 링크-*/
+@import "status-bar.css";
+
+/*메인타이틀 css 적용 링크-*/
+@import "mainTitle.css";
+
+/*검생창 css*/
+@import "searchBox.css";
+
+/*움직이는 배너 css 적용 링크-*/
+@import "moving-banner.css";
+
+/*카테고리 css 적용 링크-*/
+@import "category.css";
+
+/*추천 상품 css 적용 링크-*/
+@import "recommendItem.css";
+
+/*하단 네비게이션 css 적용 링크-*/
+@import "nav-bar.css";
+
+* {
+  box-sizing: border-box;
+}

@@ -1,0 +1,96 @@
+.container {
+  width: auto;
+  display: grid;
+  grid-template-rows: 100px 100px;
+  grid-template-columns: 100px 100px 100px 100px;
+}
+
+.row > div {
+  height: 100px;
+  margin-top: 3px;
+}
+
+.category {
+  margin-top: 5px;
+}
+
+.category1 {
+  color: white;
+  font-family: "Jua", sans-serif;
+  font-size: 2em;
+  text-align: right;
+  opacity: 95%;
+  padding-left: 30px;
+  padding-top: 40px;
+  background-image: url("../img/category11.png");
+  cursor: pointer;
+}
+
+.category2 {
+  color: white;
+  font-family: "Jua", sans-serif;
+  font-size: 2em;
+  text-align: right;
+  opacity: 95%;
+  padding-left: 30px;
+  padding-top: 40px;
+  background-image: url("../img/category22.png");
+  cursor: pointer;
+}
+
+.category3 {
+  color: white;
+  font-family: "Jua", sans-serif;
+  font-size: 2em;
+  text-align: right;
+  opacity: 95%;
+  padding-left: 30px;
+  padding-top: 40px;
+  background-image: url("../img/category33.png");
+  cursor: pointer;
+}
+
+.category4 {
+  color: white;
+  font-family: "Jua", sans-serif;
+  font-size: 2em;
+  text-align: right;
+  opacity: 95%;
+  padding-left: 30px;
+  padding-top: 30px;
+  background-image: url("../img/category22.png");
+  cursor: pointer;
+}
+
+.category5 {
+  color: white;
+  font-family: "Jua", sans-serif;
+  font-size: 2em;
+  text-align: right;
+  opacity: 95%;
+  padding-left: 30px;
+  padding-top: 30px;
+  background-image: url("../img/category11.png");
+  cursor: pointer;
+}
+
+.category6 {
+  color: white;
+  font-family: "Jua", sans-serif;
+  font-size: 2em;
+  text-align: right;
+  opacity: 95%;
+  padding-left: 30px;
+  padding-top: 30px;
+  background-image: url("../img/category22.png");
+  cursor: pointer;
+}
+
+.carousel-caption {
+  padding-bottom: 30px;
+}
+
+.carousel-caption > h2 {
+  font-size: 2em;
+  padding-bottom: 15px;
+}

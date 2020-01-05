@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <!--부트스트랩 CSS CDN-->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+
+    <!--CSS 적용 링크-->
+    <link href="css/style.css" rel="stylesheet" />
+
+    <!--fontawesome 연결-->
+    <script
+      src="https://kit.fontawesome.com/ef0ac35e95.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <!--상태창-->
+      <section class="status-bar">
+        <div class="status-bar__column">
+          <span style="font-weight: bold;">KT</span>
+          <span class="status-bar__clock">17:00</span>
+        </div>
+        <div class="status-bar__column">
+          <i class="fas fa-clock"></i>
+          <i class="fas fa-volume-mute"></i>
+          <i class="fas fa-wifi"></i>
+          <span class="status-bar__battery-level">100%</span>
+          <i class="fas fa-battery-full"></i>
+        </div>
+      </section>
+
+      <!--브랜드로고, 알람아이콘-->
+      <section class="mainTitle">
+        <div class="logoIMG">
+          <img src="img/logo.png" style="height:5em; width:auto;" />
+        </div>
+        <div class="alarmIcon">
+          <a
+            href="https://login.coupang.com/login/login.pang?rtnUrl=https%3A%2F%2Fmy.coupang.com%2Fpurchase%2Flist"
+            style="color:black;"
+          >
+            <i class="far fa-bell fa-2x"></i
+          ></a>
+        </div>
+      </section>
+
+      <!--그리드 4/4/4로 나눈 뒤 가운데 그리드에 로고, 오른쪽 그리드에 알림아이콘 배치
+          <div class="row">
+            <div class="col-xs-4 col-sm-4" style="background-color:red">1</div>
+            <div class="col-xs-4 col-sm-4" style="background-color:yellow">2</div>
+            <div class="col-xs-4 col-sm-4" style="background-color:green">3</div>
+          </div>
+          -->
+
+      <!--브랜드로고, 알람아이콘-->
+      <section class="searchBox">
+        <div class="searchIcon">
+          <a href="#">
+            <i class="fas fa-search fa-2x"></i>
+          </a>
+        </div>
+        <div class="searchInput">
+          <input
+            type="text"
+            class="form-control"
+            id="address"
+            placeholder="원하는 굿즈를 찾아보세요"
+            required=""
+            style="border:none;"
+          />
+        </div>
+      </section>
+    </header>
+
+    <section class="movingBanner">
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/movingBanner1.png" />
+            <svg
+              class="bd-placeholder-img"
+              width="100%"
+              height="100%"
+              xmlns="http://www.w3.org/2000/svg"
+              preserveAspectRatio="xMidYMid slice"
+              focusable="false"
+              role="img"
+            >
+              <rect width="100%" height="100%" fill="#777" />
+            </svg>
+            <div class="container">
+              <div class="carousel-caption text-left">
+                <h2>별수호자 스킨 출시</h2>
+                <p>
+                  <a
+                    class="btn btn-sm btn-primary"
+                    href="https://store.leagueoflegends.co.kr/skins/134006"
+                    role="button"
+                    >지금 보러가기</a
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/movingBanner2.png" />
+            <svg
+              class="bd-placeholder-img"
+              width="100%"
+              height="100%"
+              xmlns="http://www.w3.org/2000/svg"
+              preserveAspectRatio="xMidYMid slice"
+              focusable="false"
+              role="img"
+            >
+              <rect width="100%" height="100%" fill="#777" />
+            </svg>
+            <div class="container">
+              <div class="carousel-caption text-left">
+                <h2>K/DA 스킨 출시</h2>
+                <p>
+                  <a
+                    class="btn btn-sm btn-primary"
+                    href="https://store.leagueoflegends.co.kr/skins/84009"
+                    role="button"
+                    >지금 보러가기</a
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/movingBanner3.png" />
+            <svg
+              class="bd-placeholder-img"
+              width="100%"
+              height="100%"
+              xmlns="http://www.w3.org/2000/svg"
+              preserveAspectRatio="xMidYMid slice"
+              focusable="false"
+              role="img"
+            >
+              <rect width="100%" height="100%" fill="#777" />
+            </svg>
+            <div class="container">
+              <div class="carousel-caption text-left">
+                <h2>2020 롤드컵 티켓 오픈</h2>
+                <p>
+                  <a class="btn btn-sm btn-primary" href="#" role="button"
+                    >지금 보러가기</a
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a
+          class="carousel-control-prev"
+          href="#myCarousel"
+          role="button"
+          data-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a
+          class="carousel-control-next"
+          href="#myCarousel"
+          role="button"
+          data-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </section>
+
+    <section class="category">
+      <!--그리드 4/4/4로 나눈 뒤 가운데 그리드에 로고, 오른쪽 그리드에 알림아이콘 배치      -->
+      <div class="container-fluid">
+        <div class="row">
+          <div class="category1 col-xs-4 col-sm-4">피규어</div>
+          <div class="category2 col-xs-4 col-sm-4">e스포츠</div>
+          <div class="category3 col-xs-4 col-sm-4">인형</div>
+          <!--나중에 추가 예정
+          <div class="category4 col-xs-4 col-sm-4">4</div>
+          <div class="category1 col-xs-4 col-sm-4">피규어</div>
+          <div class="category2 col-xs-4 col-sm-4">인형</div>
+          -->
+        </div>
+      </div>
+    </section>
+
+    <!--고정형 배너
+    <section class="fixedBanner">
+      <div class="container-fluid" style="padding-right:0; padding-left:0;">
+        <img src="img/src" />
+      </div>
+    </section>
+    -->
+
+    <!--맞춤 상품 추천-->
+    <section class="recommendItem">
+      <div class="recommendItem__title">
+        <h1>정진교님을 위한 추천 상품</h1>
+        <span>더 보기</span>
+        <div class="recommendItem__list">1</div>
+        <div class="recommendItem__list">2</div>
+        <div class="recommendItem__list">3</div>
+      </div>
+    </section>
+
+    <!--하단 네비게이션-->
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__list-item">
+          <a href="friends.html" class="nav__list-link">
+            <i class="fas fa-bars fa-5x"></i>
+          </a>
+        </li>
+        <li class="nav__list-item">
+          <a href="index.html" class="nav__list-link">
+            <i class="fas fa-search fa-5x"></i>
+          </a>
+        </li>
+        <li class="nav__list-item">
+          <a href="find.html" class="nav__list-link" style="color:#0066ff">
+            <i class="fas fa-home fa-35x"></i>
+          </a>
+        </li>
+        <li class="nav__list-item">
+          <a href="more.html" class="nav__list-link">
+            <i class="far fa-user fa-5x"></i>
+          </a>
+        </li>
+        <li class="nav__list-item">
+          <a href="more.html" class="nav__list-link">
+            <i class="fas fa-shopping-cart fa-5x"></i>
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <!--부트스트랩 JS CDN-->
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

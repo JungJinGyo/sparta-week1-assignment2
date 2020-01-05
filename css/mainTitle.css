@@ -1,0 +1,13 @@
+.mainTitle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logoIMG {
+  margin-left: 8.5em;
+}
+
+.alarmIcon {
+  margin-right: 1rem;
+}
