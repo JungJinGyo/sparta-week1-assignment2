@@ -45,8 +45,10 @@
       </section>
 
       <!--브랜드로고, 알람아이콘-->
+
       <section class="mainTitle">
-        <div class="logoIMG">
+        <div class="logoIMG container-fluid">
+          <div class="row"></div>
           <img src="img/logo.png" style="height:5em; width:auto;" />
         </div>
         <div class="alarmIcon">
@@ -59,15 +61,7 @@
         </div>
       </section>
 
-      <!--그리드 4/4/4로 나눈 뒤 가운데 그리드에 로고, 오른쪽 그리드에 알림아이콘 배치
-          <div class="row">
-            <div class="col-xs-4 col-sm-4" style="background-color:red">1</div>
-            <div class="col-xs-4 col-sm-4" style="background-color:yellow">2</div>
-            <div class="col-xs-4 col-sm-4" style="background-color:green">3</div>
-          </div>
-          -->
-
-      <!--브랜드로고, 알람아이콘-->
+      <!--검색창, 돋보기아이콘-->
       <section class="searchBox">
         <div class="searchIcon">
           <a href="#">
@@ -202,6 +196,9 @@
           <div class="category1 col-xs-4 col-sm-4">피규어</div>
           <div class="category2 col-xs-4 col-sm-4">e스포츠</div>
           <div class="category3 col-xs-4 col-sm-4">인형</div>
+          <div class="category4 col-xs-4 col-sm-4">앨범</div>
+          <div class="category5 col-xs-4 col-sm-4">콘서트/팬미팅</div>
+          <div class="category6 col-xs-4 col-sm-4">책/브로마이드</div>
           <!--나중에 추가 예정
           <div class="category4 col-xs-4 col-sm-4">4</div>
           <div class="category1 col-xs-4 col-sm-4">피규어</div>
@@ -219,14 +216,33 @@
     </section>
     -->
 
-    <!--맞춤 상품 추천-->
+    <!--상품 추천 타이틀-->
     <section class="recommendItem">
-      <div class="recommendItem__title">
-        <h1>정진교님을 위한 추천 상품</h1>
-        <span>더 보기</span>
-        <div class="recommendItem__list">1</div>
-        <div class="recommendItem__list">2</div>
-        <div class="recommendItem__list">3</div>
+      <div class="container-fluid recommendBox">
+        <div class="row">
+          <div class="col recommendTitle">
+            정진교님 추천 상품
+          </div>
+          <div class="col" style="text-align:right">
+            <a href="#">더 보기</a>
+          </div>
+        </div>
+      </div>
+
+      <!--상품 썸네일-->
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-xs-3 col-sm-3" style="text-align: left;">
+            <div class="recommendImage1"></div>
+            <div class="recommendText">
+              K/DA 장패드 ￦30,000
+              <span class="recommendSmallText">
+                <br /><a href="#">바로가기</a>
+              </span>
+            </div>
+          </div>
+          </div>
+        </div>
       </div>
     </section>
 

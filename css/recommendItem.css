@@ -1,5 +1,65 @@
-.recommendItem__title {
+.recommendItem {
+  margin-top: 15px;
+}
+.recommendTitle {
+  font-family: "Noto Sans KR", sans-serif;
+  font-size: 20px;
+  color: black;
+}
+
+.recommendTitle {
+  font-family: "Noto Sans KR", sans-serif;
+  font-size: 20px;
+  color: black;
+}
+
+.recommendBox > div {
+  border-bottom: 1px solid black;
+  height: 40px;
+}
+
+.recommendImage1 {
+  color: white;
+  font-family: "Jua", sans-serif;
+  font-size: 2em;
+  text-align: right;
+  height: 3.2em;
+  width: 240px;
+  opacity: 95%;
+  padding-left: 30px;
+  padding-top: 40px;
+  background-image: url("../img/item1.png");
+}
+
+.recommendImage2 {
+  color: white;
+  font-family: "Jua", sans-serif;
+  font-size: 2em;
+  text-align: right;
+  height: 3.2em;
+  width: 10em;
+  opacity: 95%;
+  padding-left: 30px;
+  padding-top: 40px;
+  background-image: url("../img/item2.png");
+}
+
+.recommendText {
+  margin-top: 3px;
+  font-family: "Noto Sans KR", sans-serif;
+  font-size: 20px;
+  color: black;
+}
+
+.recommendSmallText {
+  font-family: "Noto Sans KR", sans-serif;
+  font-size: 16px;
+  color: black;
+}
+
+.recommendation > div > div > h2 {
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  text-align: right;
+  font-family: "Noto Sans KR", sans-serif;
 }
